@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, serif;
+    margin: 0px;
+}
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222020;
+}
+.head_link{
+    color: white;
+    text-decoration: none;
+}
+.left_link{
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    background-color: #2f1ce4 ;
+    text-decoration: none;
+}
+.right_link{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    border: 4px white solid;
+}
