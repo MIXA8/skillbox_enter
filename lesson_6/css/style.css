@@ -1,0 +1,133 @@
+* {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Muller';
+    src: url('fonts/MullerRegular.woff2') format('woff2'),
+    url('fonts/MullerRegular.woff') format('woff');
+}
+
+body {
+    margin: 0;
+    background-color: rgba(241, 241, 241, 1);
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-up {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-up .left {
+    display: flex;
+    align-items: center;
+}
+
+.header-up .right {
+    color: rgba(204, 153, 51, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.header-up .left :last-child {
+    margin: 20px;
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    font-weight: bold;
+}
+
+
+.header-down {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgba(102, 102, 102, 1);
+    font-weight: 400;
+}
+
+.header-down .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-right {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-item-left {
+    margin: 5px 20px;
+}
+
+.nav-item-right {
+    margin: 5px 30px;
+}
+
+.section-special-center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-item-background {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.special-item-title {
+    color: white;
+}
+
+.gold-button-outline {
+    color: rgba(204, 153, 51, 1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(204, 153, 51, 1);
+}
+
+.section-special-left {
+    width: 60%;
+}
+
+.section-special-right {
+    width: 60%;
+}
+
+.section-special-title {
+    margin-left: 40px;
+}
+
+.section-service-list {
+    display: flex;
+}
+
+.section-advantages-list {
+    display: flex;
+}
+
+.section-accommodation-list {
+    display: flex;
+}
