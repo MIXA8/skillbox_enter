@@ -115,6 +115,9 @@ body {
     display: flex;
     color: rgba(240, 191, 95, 1);
 }
+.special-item-more a {
+    color: rgba(240, 191, 95, 1);
+}
 
 
 .special-item {
@@ -506,4 +509,50 @@ body {
     z-index: 0;
     right: 10%;
     top: 20%;
+}
+
+.gold-button-outline:hover, .gold-button-outline:focus {
+    background-color: rgba(204, 153, 51, 1);
+    color: white;
+    border: 1px solid rgba(204, 153, 51, 1);
+}
+
+.special-item-button:hover, .special-item-button:focus {
+    border: none;
+    background-color: rgba(204, 153, 51, 1);
+    color: white;
+}
+
+.section-accommodation-item-button:hover, .form-button:hover, .section-accommodation-item-button:focus, .form-button:focus {
+    border: none;
+    background-color: rgba(204, 153, 51, 1);
+    color: white;
+}
+
+.gold-button-outline:active, .special-item-button:active, .section-accommodation-item-button:active, .form-button:active {
+    background-color: rgba(164, 115, 18, 1);
+    color: white;
+}
+
+.footer-icon:hover, .footer-icon:focus {
+    filter: brightness(0) saturate(100%) invert(56%) sepia(60%) saturate(466%) hue-rotate(2deg) brightness(98%) contrast(95%);
+}
+
+.footer-icon:active {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(25%) saturate(4786%) hue-rotate(30deg) brightness(95%) contrast(86%);
+}
+#personal_account:hover, #number:hover {
+    outline: none;
+    color: rgba(204, 153, 51, 1);
+}
+#personal_account:focus, #number:focus, #personal_account:focus-visible, #number:focus-visible {
+    outline: none;
+    border: 1px solid rgba(204, 153, 51, 1);
+    color: rgba(204, 153, 51, 1);
+}
+
+.contacts:focus a, .contacts:focus-visible  a{
+    outline: none;
+    border: 1px solid rgba(204, 153, 51, 1);
+    color: rgba(204, 153, 51, 1);
 }
